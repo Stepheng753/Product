@@ -11,10 +11,8 @@ export default function App() {
 			<StatusBar style="auto" />
 			<View style={styles.contentWrapper}>
 				<View style={styles.headerContainer}>
-					<Text style={styles.headerText}>My To-Do App</Text>
+					<Text style={styles.headerText}>Product</Text>
 				</View>
-
-				{console.log(StatusBar.currentHeight)}
 				<View style={styles.rewardsSection}>
 					<Text style={styles.sectionHeaderText}>Rewards</Text>
 					<RewardList data={rewardsData} />
