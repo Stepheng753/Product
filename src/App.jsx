@@ -1,9 +1,9 @@
 import { StyleSheet, View, Text } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { StatusBar } from 'expo-status-bar';
-import ToDoList from './src/components/ToDoList.jsx';
-import RewardList from './src/components/RewardList.jsx';
-import { rewardsData, todoData } from './src/data/mockData.jsx';
+import ToDoList from './components/ToDoList.jsx';
+import RewardList from './components/RewardList.jsx';
+import { rewardsData, todoData } from './data/mockData.jsx';
 
 export default function App() {
 	return (
